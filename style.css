@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    box-shadow: 2px 20px 40px rgb(233, 228, 228);
+    display: flex;
+    height: 10vh;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  position:fixed;
+  z-index: 1;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 22%;
+    gap: 10px;
+    margin: 0 0 0 8%;
+}
+#tastyBites{
+ line-height:400%;
+ height: 8vh;
+}
+h1{
+    font-size: 2.5rem;
+    color: rgb(255, 115, 0);
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    width:40% ;
+}
+.navitem3{
+  display: flex;
+  align-items: center;
+  width: 20%;
+  gap: 10px;
+}
+.SearchBox{
+    height: 40%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-color:rgb(255, 255, 240);
+    border-radius: 10px;
+    gap: 4%;
+    border: 3px solid orange;
+}
+.SearchBox:hover{
+background-color: rgb(253, 217, 54);
+}
+.btn{
+    width: 100%;
+    font-size: 1.4rem;
+    height: 100%;
+    line-height: 170%;
+    cursor: pointer;
+}
+
+.Container{
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 5px 5px rgb(207, 204, 204);
+}
+.box{
+    width: 35%;
+    height: 70%;
+    margin: 13% 0 10% 0;
+}
+.boximg{
+    margin-top: 20%;
+}
+#mainimg{
+    width: 31vw;
+    margin: 25% 0 15% 0;
+}
+h2{
+    color: white;
+    font-size: 5rem;
+}
+h3{
+    color: rgb(92, 84, 84);
+    font-size: 2.5rem;
+}
+.deliverbox{
+    background-color: aliceblue;
+    width: 90%;
+    border-radius: 10px;
+}
+.deliverboxChild{
+    display: flex;
+    margin: 4% 9%;
+    padding: 4% 0 0 0 ;
+}
+span{
+    display: flex;
+    font-size: 1.3rem;
+    gap: 10px;
+    margin: 0 10px;
+    line-height: 180%;
+}
+.line{
+    height: 2px;
+    background-color: rgb(151, 151, 151);
+    margin: 0 5% ;
+}
+.deliverboxChild2{
+    display: flex;
+    margin:4% 10%;
+    padding: 0 0 4% 0;
+    gap: 15px;
+}
+#text{
+    border: none;
+    line-height: 10px;
+    background-color: whitesmoke;
+    width: 15vw;
+    border-radius: 5px;
+    font-size: 1.2rem;
+
+}
+#text:focus{
+    outline: none;
+    background-color: none;
+}
+.deliver{
+    display: flex;
+    gap: 5px;
+}
+.deliver:hover{
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+#findFood{
+    background-color: rgb(255, 136, 0);
+    width: 30%;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 200%;
+    cursor: pointer;
+}
+.Add{
+    width: 75vw;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    box-shadow: 0px 1px 30px rgb(212, 209, 209);
+}
+.addbox{
+    background-color: rgb(255, 254, 214);
+    width: 34%;
+}
+.addtext{
+    margin: 10% 5% 10% 5%;
+    font-size: 3.5rem;
+}
+.addtextpara{
+    color: rgb(255, 208, 0);
+    display: inline;
+}
+.addtext2{
+    margin: 5%;
+    color: rgb(90, 85, 85);
+    font-size: 1.8rem;
+}
+.addtext3{
+    margin: 13%  15%;
+    color: white;
+    background-color: orange;
+    width: 70%;
+    height: 10%;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 240%;
+    cursor: pointer;
+}
+.footer{
+    padding-top: 3% ;
+    margin-top: 10%;
+    background-color:rgb(26, 24, 24);
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 30px rgb(163, 161, 161);
+}
+.footerchild2{
+    width: 25%;
+}
+.footerstrong{
+    color: white;
+    font-size: 1.7rem ;
+}
+.footerul{
+    color:rgb(207, 203, 203) ;
+    font-size: 1.3rem;
+    list-style: none;
+}
+.footerul li{
+    padding: 4% 0;
+}
+#follow{
+    color: rgb(170, 169, 169);
+    font-size: 1.5rem;
+}
+#Receive{
+    font-size: 2.5rem;
+    margin-top: 80px;
+    color: rgb(168, 159, 159);
+}
+.footerimg{
+    display: flex;
+    gap: 4%;
+    margin: 2% 0;
+}
+.emailbox{
+    height: 13%;
+    border-radius:10px ;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 5% 0;
+    background-color:rgb(194, 191, 191);
+    width: 50%;
+}
+#inputemail{
+    font-size: 1.2rem;
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 0px solid gray;
+    background-color: rgb(194, 191, 191);
+}
+.subscribe{
+    background-color: rgb(255, 230, 0);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 180%;
+    font-size: 1.5rem;
+    width: 25%;
+    height: 13%;
+    position: relative;
+    left: 65%;
+    bottom: 21%;
+    cursor: pointer;
+}
+.addimg{
+    width: 50vw;
+}
+.popular{
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-size: 3rem;
+    padding-top:8% ;
+}
+.itemsContainer{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:15px ;
+}
+.itemsimg{
+    width: 100%;
+}
+.items_name{
+    font-size: 1.5rem;
+}
+.items_RS{
+    display: inline;
+    font-size: 1.5rem;
+}
+.items_order{
+    background-color: rgb(253, 106, 8);
+    height: 12%;
+    line-height: 150%;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 6px;
+}
+.items_img{
+    border-radius: 10px;
+}
+.team_container{
+
+}
+.Specialtie{
+    color: orangered;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-size: 2rem;
+    padding-top:8% ;
+}
+.our_team{
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-size: 3.5rem; 
+}
+.image{
+    height: 60VH;
+    box-shadow: 0px 0px 15px  rgb(0,0,0,0.3);
+    margin-top: 3%;
+}
+.img_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+.team_name_box{
+    background-color: rgb(252, 169, 17);
+    text-align: center;
+    box-shadow: 0px 0px 20px  rgba(252, 170, 18, 0.3);
+}
+.team_name{
+    font-size: 2.5rem;
+}
+.team_specialties{
+    font-size: 1.6rem;
+}
+
+@media(max-width:768px){
+    
+    nav{
+        width: 100%;
+        align-items: center;
+    }
+    .SearchBox{
+        display: none;
+    }
+    .menu_toggle{
+        width: 20%;
+    margin:0 2% 0 0;
+    cursor: pointer;
+    }
+    .menu_toggle span{
+        width: 50px;
+        height:8px;
+        display: block;
+        background-color:orangered;
+        margin: 6px;
+      transition: 0.3s all;
+      cursor: pointer;
+    }
+    .menu_toggle.active span:nth-child(1){
+        transform: rotate(45deg);
+        position: relative;
+        top: 1vh;
+        background-color: red;
+    }
+   .menu_toggle.active span:nth-child(2){
+        display: none;
+    }
+    .menu_toggle.active span:nth-child(3){
+        transform:rotatez(135deg);
+        position: relative;
+        bottom: 0.5vh;
+        background-color: red;
+    }
+
+    .itemsContainer{
+        gap: 50px;
+    }
+    .items_img{
+        width: 90vw;
+    }
+    .items_order{
+        line-height: 170%;
+    }
+     .popular{
+        margin: 22% 0 10% 0;
+     }
+    
+    .location{
+        display: none;
+    }
+    header{
+     width: 80%;
+     margin: 0 0 0 3%;
+    }
+    #tastyBites{
+        height: 7vh;
+    }
+    h1{
+        font-size: 1.9rem;
+        width:55vw;
+    }
+    .box{
+        width: 100%;
+        text-align: center;
+    }
+    .boximg{
+        margin-top: 20%;
+    }
+    #mainimg{
+        width: 80%;
+        margin: 18vh 0 0% 10%;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+        margin-bottom: 4vh;
+    }
+    .deliverbox{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #text{
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    #findFood{
+        width: 35%;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 250%;
+    }
+
+    .Add{
+        margin-top: 6vh;
+        width: 90%;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        box-shadow:none;
+    }
+    .addbox{
+        width: 100%;
+    }
+    .addtext{
+        margin: 10% 5% 10% 5%;
+        font-size: 2.3rem;
+    }
+    .addtext2{
+        font-size: 1.7rem;
+    }
+    .addtext3{
+        margin: 15%  15% 0% 15%;
+        height: 12%;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        line-height: 200%;
+    }
+    .addimg{
+        width:100%;
+    }
+    .chikenimg{
+        flex-wrap: wrap;
+    }
+    .footer{
+        flex-wrap: wrap;
+        
+    }
+    .footerchild{
+        width: 95%;
+        margin-left: auto;
+    }
+    .footerchild2{
+        width: 100%;
+
+    }
+    .footerstrong{
+        font-size: 2rem ;
+    }
+    .footerul{
+        font-size: 1.6rem;
+    }
+    .footerul li{
+        padding: 4% 0;
+    }
+    #follow{
+        font-size: 1.rem;
+        margin-left: 5%;
+        color: aliceblue;
+    }
+    #Receive{
+        font-size: 2.5rem;
+    }
+    .footerimg{
+        margin-left: 6%;
+    }
+    .emailbox{
+        margin-left: 7vw;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .subscribe{
+        bottom: 20%;
+    }
+    .Specialtie{
+        margin-top: 20%;
+    }
+    .img_box{
+        gap: 40px;
+    }
+   .humburger_menu{
+    height: 32vh;
+    background-color:rgb(196, 192, 192); 
+    position: fixed;
+    width: 100%;
+    opacity: 80%;
+}
+ .humburger_menu ul{
+    margin-left: 77%;
+    padding-top: 28%;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.humburger_menu ul li{
+    margin: 0 0 30% 0; 
+}
+.humburger_menu ul li:hover{
+  color: red;
+}
+    
+} 
